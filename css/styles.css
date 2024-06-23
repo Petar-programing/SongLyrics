@@ -1,0 +1,842 @@
+body {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'MuseoModerno', cursive;
+  color: #FFF338;
+  font-size: 2rem;
+  margin: 0 100px 100px;
+}
+
+h2 {
+  font-family: 'MuseoModerno', cursive;
+  color: #fff;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'MuseoModerno', cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 100px;
+}
+
+hr:not([size]) {
+  color: #FFF338;
+  width: 100%;
+}
+
+/* Search Bar & Download Buttons */
+* {
+  box-sizing: border-box;
+}
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #22a6b3;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.input-search::placeholder {
+  color: rgba(255, 255, 255, .5);
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #ffffff;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.apple a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.play-store a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Headings */
+.First-Heading {
+  text-align: center;
+  padding: 250px 100px 50px;
+}
+
+.Second-Heading {
+  padding: 130px 150px 80px;
+}
+
+.Third-Heading {
+  padding: 0px 200px;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #7EB5A6;
+}
+
+#press {
+  background-color: #7EB5A6;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Color parts */
+.teal-color {
+  background-color: #00A19D;
+}
+
+.green-color {
+  background-color: #7EB5A6;
+}
+
+/* Sections */
+.second-section {
+  padding: 50px;
+  background-color: #7EB5A6;
+}
+
+.container-1-fluid {
+  padding-bottom: 300px;
+}
+
+/* Pages */
+.first-page {
+  padding-bottom: 100px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  color: #fff;
+  background-color: #00A19D;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: absolute;
+  left: 100px;
+  top: 50px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.collapse {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+/* Artists */
+.artist-songs {
+  text-decoration: none;
+}
+
+.lyrics-style-2 {
+  position: relative;
+  top: -35px;
+  left: 615px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.artist-lyrics {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1300px;
+}
+
+.artist-lyrics-2 {
+  position: absolute;
+  top: 1950px;
+  bottom: 0px;
+  right: 1100px;
+}
+
+.testimonial-style {
+  top: 150px;
+  width: 250px;
+}
+
+.Polo-G {
+  right: 100px;
+  border-radius: 50%;
+}
+
+.Lil-Baby, .Devito {
+  right: 45px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Drake{
+  right: -10px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Eminem{
+  right: -10px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.Trends {
+  right: -65px;
+  border-radius: 100%;
+  height: 250px;
+}
+
+.padding-change {
+  color: #7EB5A6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+}
+
+.Polo_G {
+  padding: 30px 0px 0px;
+  height: 350px;
+}
+
+.Lil_Baby {
+  padding: 20px 0px 0px;
+}
+
+.Drake_ {
+  padding: 0px 0px 150px;
+}
+
+
+.Albums_ {
+  padding: 0px 0px 100px;
+}
+
+.social-icon {
+  padding: 0 10px 20px;
+}
+
+.final {
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  color: #fff;
+  background-color: #7EB5A6;
+  padding: 25px 50px;
+}
+
+#To-Polo-G a {
+  color: #F6EFB4;
+  text-decoration: none;
+}
+
+#To-Lil-Baby a {
+  color: #3E00FF;
+  text-decoration: none;
+}
+
+#To-Drake a {
+  color: #082032;
+  text-decoration: none;
+}
+
+#To-Trends a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#To-Albums a {
+  color: #FCDEC0;
+  text-decoration: none;
+}
+
+#footer a {
+  color: #fff;
+}
+
+.orderedArtists{
+  display: flex;
+  flex-direction: column;
+}
+
+.imgOrdered{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.firstSinger{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  padding: 50px 0px 75px 0px;
+}
+
+.secondSinger{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 150px;
+  padding: 0px 0px 75px 0px;
+}
+
+.thirdSinger{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  padding: 0px 0px 75px 0px;
+}
+
+.fourthSinger{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 100px;
+  padding: 0px 0px 75px 0px;
+}
+
+.fifthSinger{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  padding: 0px 0px 150px 0px;
+}
+
+
+.forOrderr{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.linkss {
+  display: flex;
+  justify-content: space-around;
+}
+
+.change{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+
+.change:hover{
+  text-decoration: none;
+  color: yellow;
+  font-size: xx-large;
+}
+
+.firstRow{
+  padding-right: 30px;
+}
+
+.nav-link:hover{
+  color: yellow;
+}
+
+#first-section > nav > div > button.button1 > a {
+  text-decoration: none;
+  color: #00A19D;
+  font-size: x-large;
+}
+
+#first-section > nav > div > button.button2 > a {
+  text-decoration: none;
+  color: #00A19D;
+  font-size: x-large;
+}
+
+#first-section > nav > div > button.button1 {
+  padding: 50px;
+  border-style: none;
+  border-radius: 10%;
+  background-color: aquamarine;
+
+}
+
+#first-section > nav > div > button.button2 {
+  padding: 50px;
+  border-radius: 10%;
+  background-color: aquamarine;
+  border: 5px solid yellow;
+}
+
+#first-section > nav > div > button.button1:hover{
+  background-color: lightyellow;
+  color: yellow;
+}
+
+#first-section > nav > div > button.button2:hover{
+  background-color: lightyellow;
+  color: yellow;
+}
+
+#first-section > nav > div {
+  display: flex;
+  justify-content: center;
+}
+
+#first-section > nav > div > button.button1 {
+  margin-right: 100px;
+}
+
+#first-section > nav > div > button.button2 {
+  margin-left: 100px;
+}
+
+.playMusic{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.playMusic:hover{
+  color: yellow;
+  cursor: grab;
+}
+
+.playMusicbutton{
+  border: 0px;
+  border-radius: 80%;
+  background-color: aquamarine;
+  padding: 7px;
+}
+
+#first-section > nav > nav.First-Heading > h1 {
+  font-size: xxx-large;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.colored-section{
+  background-color: #7EB5A6;
+  padding: 35px 0px 35px 0px;
+  color: white;
+}
+
+.forflex{
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.firstdiv{
+  width: 400px;
+  font-size: 18px;
+  padding: 25px;
+  border: 1px solid #00A19D;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.seconddiv{
+  width: 400px;
+  font-size: 18px;
+  padding: 25px;
+  border: 1px solid #00A19D;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.thirddiv{
+  width: 400px;
+  font-size: 18px;
+  padding: 25px;
+  border: 1px solid #00A19D;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.fourthdiv{
+  width: 400px;
+  font-size: 18px;
+  padding: 25px;
+}
+
+body > header > section.colored-section > div > div.firstdiv > p:nth-child(2) {
+  margin-top: 20px;
+}
+
+body > header > section.colored-section > div > div.seconddiv > p:nth-child(2) {
+  margin-top: 20px;
+}
+
+body > header > section.colored-section > div > div.thirddiv > p:nth-child(2) {
+  margin-top: 20px;
+}
+
+body > header > section.colored-section > h1{
+  color: white;
+  font-size: 40px;
+  padding: 25px
+}
+
+body > header > section.colored-section > div > div.fourthdiv > p:nth-child(2) {
+  margin-top: 20px;
+}
+
+body > header > section:nth-child(3) > h1 {
+  color: white;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
+.alltrends{
+  font-size: x-large;
+  color: darkblue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.thetrends{
+  padding-bottom: 100px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(1){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(2){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(3){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(4){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(5){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(6){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(7){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(8){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(9){
+  padding: 3px;
+  border: 2px solid aquamarine;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(10){
+  padding: 3px;
+  width: 1100px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+body > header > section.teal-color.thetrends > div > div:nth-child(1) > p:nth-child(2){
+  width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(2) > p:nth-child(2){
+  width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(3) > p:nth-child(2){
+  width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(4) > p:nth-child(2){
+   width: 180px;
+ }
+body > header > section.teal-color.thetrends > div > div:nth-child(5) > p:nth-child(2){
+    width: 180px;
+ }
+body > header > section.teal-color.thetrends > div > div:nth-child(6) > p:nth-child(2){
+     width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(7) > p:nth-child(2){
+      width: 180px;
+    }
+body > header > section.teal-color.thetrends > div > div:nth-child(8) > p:nth-child(2){
+  width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(9) > p:nth-child(2){
+  width: 180px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(10) > p:nth-child(2){
+  width: 180px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(1) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(2) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(3) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(4) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(5) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(6) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(7) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(8) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(9) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(10) > p:nth-child(3){
+  width: 150px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(1) > audio{
+  height: 40px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(2) > audio{
+  height: 40px;
+}
+
+body > header > section.teal-color.thetrends > div > div:nth-child(3) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(4) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(5) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(6) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(7) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(8) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(9) > audio{
+  height: 40px;
+}
+body > header > section.teal-color.thetrends > div > div:nth-child(10) > audio{
+  height: 40px;
+}
+
+
+body > header > section.teal-color.thetrends {
+  background-color: burlywood;
+  padding-top: 50px;
+}
+
+body > header > section.teal-color.thetrends > h1{
+  color: darkblue;
+}
+
+#third-section > nav > nav > h2{
+  color: burlywood;
+}
+
+#bio > div > div.firstdiv > p:nth-child(3){
+  font-size: larger;
+}
+
+#bio > div > div.firstdiv > p:nth-child(2){
+  font-size: larger;
+}
+
+#bio > div > div.seconddiv > p:nth-child(2){
+  font-size: larger;
+}
+
+#bio > div > div.seconddiv > p:nth-child(3){
+  font-size: larger;
+}
+
+#bio > div > div.thirddiv > p:nth-child(2){
+  font-size: larger;
+}
+
+#bio > div > div.thirddiv > p:nth-child(3){
+  font-size: larger;
+}
+
+#bio > div > div.fourthdiv > p:nth-child(2){
+  font-size: larger;
+}
+
+#bio > div > div.fourthdiv > p:nth-child(3){
+  font-size: larger;
+}
+
+
+
+
